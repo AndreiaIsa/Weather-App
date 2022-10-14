@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Weather App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+<script src="https://kit.fontawesome.com/dc97e7284c.js" crossorigin="anonymous"></script>
+    <link href="src/style.css" rel="stylesheet" type="text/css" />
+    
+  </head>
+  <body>
+    
+    <div class="container">
+      
+      </div>
+         <form id="search-form">
+          <span class="search-form">
+          <div class="mb-3"> 
+       <input type="search" id="search-input" class="form-control" placeholder="Search city" class="search-field" />
+          <img src="images/search.png" width="10px"></button>        
+          </div>
+          </span>
+           </form>
+          </body>
+  
+  <section class="actual-location">
+
+     <div class="row">
+        <div class="col">
+          <h1>
+          <span class="number-degrees" id="degrees-temp"></span>
+          <span class="celcius">
+          <a href="#" id="celciusDegrees">°C</a></span>
+          <span class="fahrenheit"> 
+          <a href="#" id="fahrenheit">°F</a></span>
+        <span class="current-location"> 
+          <button id="location">🧭</button>
+        </span>
+          </h1>
+        </div>
+        <div class="col">
+          <span class="actual-weather">
+          🍃
+          </span>
+        </div>
+         </div>
+         <div class="row">
+          <span class="city" id="city">
+        
+          </span>
+        </div>
+ <div class="row">
+  <h2 id="date">
+        
+  </h2>
+</div>
+<div class="row">
+  <h3 id="time">
+        
+  </h3>
+<ul>
+
+  <li>
+  <span class="hum">Humidity:</span>
+  <span class="humid" id="humidity"></span> 
+  <span class="percentage" id="percentage">%</span>   
+  </li>
+
+  <li>
+  <span class="wind-speed">Wind:</span>
+  <span class="wind" id="wind"></span> 
+  <span class="km">Km/h</span>  
+  </li>
+  </ul>
+
+  </section>
+
+  <h4>
+    Next 5 days:
+  </h4>
+
+<section class="next-days">
+<span class="weather-5days">
+  <div class="row">
+  <div class="col-2">
+    🍃
+  </div>
+  <div class="col-2">
+    🌥️
+  </div>
+  <div class="col-2">
+    🌥️
+  </div>
+  <div class="col-2">
+    🌥️
+  </div>
+  <div class="col-2">
+    🌦️
+  </div>
+</div>
+</span>
+
+<span class="week-days">
+<div class="row">
+  <div class="col-2">
+    Thursday
+  </div>
+  <div class="col-2">
+    Friday
+  </div>
+  <div class="col-2">
+    Saturday
+  </div>
+  <div class="col-2">
+    Sunday
+  </div>
+  <div class="col-2">
+    Monday
+  </div>
+</div>
+</span>
+
+<span class="daily-temperatures">
+<div class="row">
+  <div class="col-1">
+    26 °
+  </div>
+<div class="col-1">
+    21 °
+  </div>
+<div class="col-1">
+    24 °
+  </div>
+  <div class="col-1">
+   20 °
+  </div>
+ <div class="col-1">
+    24 °
+  </div>
+<div class="col-1">
+    20 °
+  </div>
+ <div class="col-1">
+    23 °
+  </div>
+ <div class="col-1">
+  20 °
+  </div>
+<div class="col-1">
+    25 °
+</div>
+<div class="col-1">
+    20 °
+  </div>
+</div>
+  </div>
+</div>
+</span>
+</section>
+</div>
+  <footer>
+      Coded by Andreia Gonçalves
+    </footer>
+    <script src="src/script.js"></script>
+    </script>
+  </body>
+</html>
